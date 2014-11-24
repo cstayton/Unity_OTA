@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_title">
+        <CheckBoxPreference android:title="@string/settings_notif_title" android:key="notif_pref" android:defaultValue="true" android:summaryOn="@string/settings_notif_summary_on" android:summaryOff="@string/settings_notif_summary_off" />
+        <CheckBoxPreference android:title="@string/settings_wifidl_title" android:key="wifidl_pref" android:defaultValue="true" android:summaryOn="@string/settings_wifidl_summary_on" android:summaryOff="@string/settings_wifidl_summary_off" />
+        <Preference android:title="@string/settings_resetwarn_title" android:key="resetwarn_pref" android:summary="@string/settings_resetwarn_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

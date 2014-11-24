@@ -1,0 +1,4 @@
+{
+    "noflash": false,
+    "rebootcmd": "/system/bin/recrbt.sh"	
+}

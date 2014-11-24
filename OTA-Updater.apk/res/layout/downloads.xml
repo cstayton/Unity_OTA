@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/downloads_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:visible="false" class="com.unityota.DownloadBarFragment" />
+    <fragment android:id="@id/download_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/downloads_bar" class="com.unityota.DownloadListFragment" />
+</RelativeLayout>
